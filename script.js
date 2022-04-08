@@ -5,7 +5,7 @@ function adopt()
 	//get user input
 	userName = prompt('What is your name?');
 	userPhone = prompt('What is your phone number?');
-	userCatsNo = prompt('How many cats would you kike to adopt?');
+	userCatsNo = prompt('How many cats would you like to adopt?');
 	
 	//Validate prompt to avoid accepting null values
 	if (userName == null || userName.length == 0 || /^\s+$/.test(userName) ||
